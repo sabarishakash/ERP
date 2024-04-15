@@ -1,0 +1,81 @@
+table,
+tr,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-left: 40px;
+  text-align: center;
+}
+
+
+table {
+  width: 70%;
+}
+
+ 
+
+  #add {
+    margin-left: -10px;
+    /* border: 1px solid black; */
+    font-size: 50px;
+    padding: 25px;
+    color: #4caf50;
+   
+    margin-right: 20px;
+    background-color: rgb(241, 15, 147);
+    box-shadow: rgba(2, 30, 82, 0.1) 0px 4px 12px;
+    
+}
+
+#view {
+  font-size: 50px;
+  padding: 25px;
+  color: orange;
+ 
+    margin-left: -10px;
+    /* border: 1px solid black; */
+    font-size: 50px;
+    padding: 25px;
+    color: orange;
+    margin-right: 20px;
+    background-color: rgb(15, 237, 241);
+    box-shadow: rgba(2, 30, 82, 0.1) 0px 4px 12px;
+}
+.one {
+  text-decoration: none;
+  color: #333;
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #af1616;
+  border-radius: 5px;
+  margin-left: -20px;
+  width: 250px;
+  height: 100px;
+  background-color: rgb(19, 11, 11);
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  box-shadow: rgba(2, 30, 82, 0.1) 0px 4px 12px;
+  cursor: pointer;
+}
+.two{
+  width: 250px;
+    height: 100px;
+    background-color: rgb(19, 4, 4);
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    box-shadow: rgba(2, 30, 82, 0.1) 0px 4px 12px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #eee;
+    border-radius: 5px;
+}

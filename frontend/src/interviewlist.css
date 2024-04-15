@@ -1,0 +1,22 @@
+.buttons {
+    padding: 4px 10px 4px 10px;
+  }
+  .int_button {
+    margin-top: 6px;
+    padding: 4px 6px 4px 6px;
+    background-color: red;
+    border-radius: 3px;
+    border-color: red;
+    color: white;
+  }
+ .view{
+ 
+  background-color: green;
+  color: white;
+ }
+  .left{
+    margin-left: 80px;
+  }
+  #interviewStatus{
+   margin-left: 50px;
+  }

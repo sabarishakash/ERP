@@ -1,0 +1,95 @@
+body {
+    background: whitesmoke;
+  }
+  .dashboard {
+    text-align: center;
+    padding-top: -100px;
+  }
+  
+  .dashboardbox {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 127%;
+    height: 500px;
+    margin-top: 10px;
+  
+    background-color: rgba(255, 255, 255, 0.435);
+  }
+  
+  .EmployeeCount {
+    background-color: #f5f5f548;
+    padding: 20px 0px 60px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 450px;
+    height: 100px;
+   
+   
+    
+  }
+  #one {
+    background-color: rgba(72, 118, 230, 255);
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 40px;
+
+  }
+  #two {
+    background-color: rgba(124, 197, 250, 255);
+    height: 200px;
+    margin-top: 10px;
+  }
+  #three {
+    background-color: rgba(158, 113, 206, 255);
+    height: 200px;
+    margin-left: 40px;
+  }
+  #four {
+    background-color: rgba(132, 209, 179, 255);
+    height: 200px;
+  }
+  .EmployeeCount p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20;
+    margin-top: 10px;
+  
+    color: white;
+  }
+  
+  .EmployeeCount h4 {
+    font-size: 25px;
+    margin-top: 8px;
+    margin-left: 20;
+    margin-top: 10px;
+    color: white;
+  }
+  
+  .pic {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .dashboardbox {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+  
+    .EmployeeCount {
+      padding: 10px;
+    }
+  
+    .EmployeeCount p {
+      font-size: 20px;
+    }
+  
+    .EmployeeCount h4 {
+      font-size: 14px;
+    }
+  }
+  
